@@ -2,6 +2,7 @@
 
 Uma ApiRest C#/.Net Core para cadastro de produtos e gestão de estoque, com a implementação de um sistema de cadastro/autenticação utlizando metodo de autenticação JWT, tambem utilzei o Swagger para documentação da API.
 
+##Funções da API
 • Login do usuário
 • Cadastro de um novo usuário
 • Cadastro de produtos

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestApi_Produtos</name>
+    </assembly>
+    <members>
+        <member name="M:RestApi_Produtos.Controllers.EstoqueController.Post(RestApi_Produtos.Models.Estoque.EstoqueViewModelInput)">
+            <summary>
+            Este serviço permite cadastrar produtos no estoque para o usuario autenticado.
+            </summary>
+            <returns>Retorna status 201 e dados do produto do usuario</returns>
+        </member>
+        <member name="M:RestApi_Produtos.Controllers.EstoqueController.Get">
+            <summary>
+            Este serviço permite obter todo o estoque.
+            </summary>
+            <returns>Retorna status ok e dados do estoque</returns>
+        </member>
+        <member name="M:RestApi_Produtos.Controllers.ProdutoController.Post(RestApi_Produtos.Models.Produtos.ProdutoViewModelInput)">
+            <summary>
+            Este serviço permite cadastrar produtos para o usuario autenticado.
+            </summary>
+            <returns>Retorna status 201 e dados do produto do usuario</returns>
+        </member>
+        <member name="M:RestApi_Produtos.Controllers.ProdutoController.Get">
+            <summary>
+            Este serviço permite obter todos os produtos ativos.
+            </summary>
+            <returns>Retorna status ok e dados dos produtos</returns>
+        </member>
+        <member name="M:RestApi_Produtos.Controllers.ProdutoController.PutProdutos(System.Int32,RestApi_Produtos.Business.Entities.Produto)">
+            <summary>
+            Este serviço permite atualizar um produto ativo.
+            </summary>
+            <returns>Retorna status ok e dados dos produtos</returns>
+        </member>
+        <member name="M:RestApi_Produtos.Controllers.UsuarioController.Logar(RestApi_Produtos.Models.Usuarios.LoginViewModelInput)">
+            <summary>
+            Este serviço permite autenticar um usuario cadastrado e ativo.
+            </summary>
+            <returns>Retorna status Ok, dados do usuario e o token em caso de sucesso</returns>
+        </member>
+        <member name="M:RestApi_Produtos.Controllers.UsuarioController.Registrar(RestApi_Produtos.Models.Usuarios.RegistroViewModelInput)">
+            <summary>
+            Este serviço permite cadastrar um usuario nao existente.
+            </summary>
+            <param name ="loginViewModelInput">View model do registro de login</param>
+        </member>
+    </members>
+</doc>
